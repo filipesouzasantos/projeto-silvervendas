@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 import Charts from 'react-apexcharts';
-import { BASE_URL } from 'types/resquests';
+import { BASE_URL } from 'utils/resquests';
 import { SaleSum } from 'types/sale';
 
 type ChartData = {
@@ -19,9 +19,8 @@ function DonutChart() {
             const mySeries = data.map(x => x.saleAllSum);
 
             setChartData({ labels: myLabels, series: mySeries });
-            
         })
-    },[]);
+    }, []);
 
     const options = {
         legend: {
