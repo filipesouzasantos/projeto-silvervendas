@@ -32,7 +32,7 @@ function DataTable() {
 
        
             <div className="table-responsive">
-                <table className="table table-striped table-sm">s
+                <table className="table table-striped table-sm">
                     <thead>
                         <tr>
                             <th>Data</th>
