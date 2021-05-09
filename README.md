@@ -5,7 +5,7 @@
 
 https://silvervendas.netlify.app/
 
-Desenvolvida com Spring boot no backend e React no forntend com o modelo API REST.
+Desenvolvida com Spring boot no backend e React no forntend com o modelo Padrão Camadas utilizando REST/JSON para conectar ao Forntend.
 
 Silver Vendas é uma aplicação que consiste em mostrar uma tabela com as vendas realizadas, seus respectivos dados e gráficos.
 
